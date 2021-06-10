@@ -15,7 +15,7 @@ spring:
     url: jdbc:h2:mem:testdb;
     username: basic
     password: basic
-    driver-class-name: org.h2
+    driver-class-name: org.h2.Driver
   jpa:
     database.platform: org.hibernate.dialect.H2Dialect
     show-sql: true
